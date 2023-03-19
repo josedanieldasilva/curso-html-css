@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Mídias em HTML5</h1>
+    <hr>
+    <p>Tente abrir esse siste em vários dispositivos diferentes ou siplismente aumente e diminua otamanho do su navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+        <hr>
+        <h1>Reproduzindo Áudio</h1>
+        <hr>
+        <p>Vamos aprender a reprozir áudios em HTML5.</p>
+        <audio src="midias/6shots-neffex.mp3" preload="metadata" loop controls></audio><!--formatos de audio, que pega em praticamente em todos os navegadores: mp3 wav ogg-->
+        <audio preload="metadata" controls>
+            <source src="midias/guanacast-33.mp3" type="audio/mpeg"><!--mpeg é para carrega audio mp3-->
+            <source src="midias/guanacast-33.ogg" type="audio/ogg">
+            <source src="midias/guanacast-33.wav" type="audio/wav"><!--Esses dois é só um exemplo de como ficaria, mas tem que camverter o audio para esse tipo de arquivo. detalhe os arquivos WAV é muito pesado.-->
+            <p>Infelismente o seu navegador não reproduz áudio. <a href="midias/guanacast-33.mp3" download="6shots-neffex.mp3">Você pode baixar em MP3 aqui.</a></p>
+        </audio>
+    </picture>
+</body>
+</html>

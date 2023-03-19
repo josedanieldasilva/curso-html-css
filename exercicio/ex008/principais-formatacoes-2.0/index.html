@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatacões</title>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Outras Formatacões</h1>
+    <hr>
+    <h2>códigos-Fonte/Pre-Formatação</h2>
+    <hr>
+    <p>O comando <code><mark>docoment.getElementById('teste')</mark></code> é iscrito em linguagem JavaScript.(Aparte marcada esta no formato de código por calsa da tag &lt;code&gt;.Usada quado cite-se um código, por ser monoespaçada, como no cóigo)</p>
+    <p>
+      <code>
+           num=int(input('digite um número'))
+           if num % 2 == 0:
+             print(f'O número {num} é PAR')
+            else:
+               print(f'número {num} é ÍPAR')
+             print('fim do programa')
+         </code>
+        a tag code não coloca a mesma indentação. do jeito certo como no código.
+        </p>
+    <p>para ficar do assim:
+        <pre>
+            <code>
+    num=int(input('digite um número'))
+    if num % 2 == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'número {num} é ÍPAR')
+    print('fim do programa')
+            </code>
+        </pre>
+        Utiliza a tag &lt;pre&gt;. Que deixa com mesma indentação ou com o mesmo espaço que está escrito no código.
+    </p>
+    <hr>
+    <h2>Citações Simples</h2>
+    <hr>
+    <P>A citação simples é citacão normal que utiliza a tag &lt;q&gt;</P>
+    <p>Como diria um amigo do meu profesor de HTML e CSS: <q>O computador é um burro muito rapido.</q></p>
+    <h3>Por que não fazer manualmente?</h3>
+    <p>Porque vai se tratar de forma, e não vai ter significado.</p>
+    <hr>
+    <h2>Citações Completas</h2>
+    <hr>
+    <p>Utiliza a tag &lt;blockquote&gt; nas citações compltas. Mais utilizada na citação de textos e parágrafo de livros. Que desloca o texto citado para o lado. </p>
+    <p>EXEMPLO</p>
+    <p>segundo David A.Crowder, no seu livro HTML para leigos</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Construindo_Web_Sites_Para_Leigos_Tradu/xlLcAwAAQBAJ?hl=pt-BR&gbpv=1&dq=HTML+para+leigos&printsec=frontcover">
+            Uma página da web não precisa ser apenas um texto corrido
+    </blockquote>
+    <hr>
+    <h2>Abreviações</h2>
+    <hr>
+    <p>Estou estudamdo <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.tô adorando!</p>
+    A tag que usei para mostra apalavra abreviada foi <code>&lt;abbr title="(A palavra não abreviada)"&gt;(A palavra abreviada)&lt;/abbr&gt;</code>
+    <hr>
+    <h2>Texto Invertido</h2>
+    <hr>
+    <p><bdo dir="rtl">Oi Ana. Estou apredendo HTML</bdo><br>
+    A tag que usei para inverter essa parte é <code>&lt;bdo dir="rtl para direita e lrt para esquerda"&gt;(A frase invertida)&lt;/bdo&gt;</code></p>
+    <hr>
+</body>
+</html>

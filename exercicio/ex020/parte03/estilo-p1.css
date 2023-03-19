@@ -1,0 +1,26 @@
+@charset "utf8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: rgb(0, 162, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: rgb(135, 222, 174);
+    text-decoration: underline;
+}
+a:active{
+    background-color: rgb(69, 165, 168);
+}
+a::after{
+    content: ' [link]';
+    font-weight: normal;
+    text-decoration: none;
+    color: burlywood;
+}

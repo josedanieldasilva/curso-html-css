@@ -1,0 +1,31 @@
+@charset "utf8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1:hover{
+    color: #ffffff;
+    background-color: blue;
+}
+#especial{
+    color: red;
+}
+div > .p-escondido {
+    display: none;
+}
+div:hover > .p-escondido{
+    display: block;
+    color: #ffffff;
+    background-color: blue;
+    width: 300px
+} 
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #05adad;
+}
+a:visited{
+    color: #05257e;
+}
+a:hover{
+    text-decoration: underline;
+}

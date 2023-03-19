@@ -1,0 +1,19 @@
+@charset "UTF8";
+@font-face {
+    font-family: 'do';
+    src: url('fonts/OldLondon.ttf') format('truetype'), url('fonts/Olondona.otf')format('opentype');
+    font-weight:normal;
+    font-style: normal;
+}
+h1, h2{
+font-family: 'do', 'Times New Roman', Times, serif;
+font-weight: normal;
+text-align: center;
+}
+body{
+font: normal 1em Arial, Verdana, sans-serif;
+}
+p{
+text-align: justify;
+text-indent: 2em;
+}

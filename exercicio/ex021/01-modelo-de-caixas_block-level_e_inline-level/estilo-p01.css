@@ -1,0 +1,24 @@
+@charset "UFT8";
+h1{
+    height: 300px;
+    width: 400px;
+
+    background-color: #8a8a96;
+    color: #ffffff;
+    text-align: center;
+
+    border: 10px dashed #4e4e4e;
+
+    padding: 10px 20px;
+
+    margin: 20px auto ;
+   
+    outline: 5px solid #5d5d5d;
+}
+a{
+    border: 3px solid #0000ff;
+}
+p{
+    text-align: justify;
+    text-align: center;
+}
